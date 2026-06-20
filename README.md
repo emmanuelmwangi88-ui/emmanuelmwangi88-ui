@@ -68,9 +68,58 @@ class Denji(Developer):
 <table align="center">
   <tr>
     <td><img src="https://github-readme-stats.vercel.app/api?username=emmanuelmwangi88-ui&show_icons=true&hide_border=true&bg_color=141321&title_color=FF6AC1&icon_color=00F5FF&text_color=e0e0e0&border_radius=10" alt="GitHub Stats" width="100%"/></td>
-    <td><img src="https://github-readme-streak-stats.herokuapp.com/?user=emmanuelmwangi88-ui&hide_border=true&background=141321&ring=8A2BE2&fire=FF6AC1&currStreakLabel=00F5FF&border_radius=10" alt="GitHub Streak" width="100%"/></td>
+    <td><img src="https://github-readme-streak-stats-eight.vercel.app/?user=emmanuelmwangi88-ui&hide_border=true&background=141321&ring=8A2BE2&fire=FF6AC1&currStreakLabel=00F5FF&border_radius=10" alt="GitHub Streak" width="100%"/></td>
   </tr>
 </table>
+
+<details>
+<summary>⚙️ Status + fallback options (click to expand)</summary>
+
+The official streak-stats host (`streak-stats.demolab.com`) shares its GitHub API token across everyone using it, so it intermittently breaks for the same reason the trophy widget does. This README currently uses a backup mirror as a stopgap.
+
+**Permanent fix:** finish your own private Vercel deploy with your own token (steps already covered separately) — once you have your domain, only the domain in the `img src` two sections up needs to change.
+
+Other options if this mirror also drops:
+- `https://streak-stats.demolab.com` (original — sometimes recovers)
+- `https://github-readme-streak-stats.vercel.app`
+
+</details>
+
+## 📋 Recent GitHub Activity
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
+<sub>⚙️ This list fills in automatically with your real latest commits, PRs, issues, and stars — see setup below.</sub>
+
+<details>
+<summary>⚙️ One-time setup (click to expand)</summary>
+
+1. Go to **Settings → Developer settings → Personal access tokens → Tokens (classic)** on GitHub and generate a new token with the `repo` scope.
+2. In this repo, go to **Settings → Secrets and variables → Actions → New repository secret**. Name it `GH_TOKEN` and paste the token as the value.
+3. Add a file at `.github/workflows/activity.yml` with this content:
+
+```yaml
+name: Update Recent Activity
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # every 30 minutes
+  workflow_dispatch: {}
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: jamesgeorge007/github-activity-readme@master
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+```
+
+4. Commit, push, then run it once from the **Actions** tab. The two comment markers above will fill in with your real recent activity and keep updating every 30 minutes on their own.
+
+</details>
 
 ## 🐍 Contribution Snake
 
@@ -78,12 +127,12 @@ class Denji(Developer):
 <img src="https://raw.githubusercontent.com/emmanuelmwangi88-ui/emmanuelmwangi88-ui/output/github-contribution-grid-snake-dark.svg" alt="snake animation" width="95%"/>
 </div>
 
-<sub>⚙️ Auto-regenerated every 12 hours by the `snake.yml` GitHub Action already in this repo — nothing to set up, it's already running.</sub>
+<sub>⚙️ Auto-regenerated every 12 hours by the `snake.yml` GitHub Action already in this repo.</sub>
 
 <details>
 <summary>⚙️ Workflow reference (click to expand)</summary>
 
-This is already in `.github/workflows/snake.yml` in this repo and has already run successfully:
+This should already be in `.github/workflows/snake.yml` in this repo:
 
 ```yaml
 name: Generate Snake Animation
@@ -123,47 +172,59 @@ jobs:
 
 ## 🏆 Trophy Case
 
+<!-- Currently using a public mirror. Once you finish your own Vercel deploy, replace ONLY the domain below (keep everything after the ?) with your own, e.g. https://your-project-name.vercel.app -->
 <div align="center">
 <img src="https://github-profile-trophy-winning.vercel.app/?username=emmanuelmwangi88-ui&theme=radical&no-frame=true&margin-w=10&row=1&column=7" alt="trophies"/>
 </div>
 
 <details>
-<summary>⚙️ If this ever breaks again (click to expand)</summary>
+<summary>⚙️ Status + fallback options (click to expand)</summary>
 
-The official trophy server (`github-profile-trophy.vercel.app`) is overloaded and occasionally goes down — that's a known, widespread issue, not specific to your profile. The image above uses a community-run mirror instead, which is more reliable right now.
+The official trophy server (`github-profile-trophy.vercel.app`) is hitting GitHub API rate limits shared across everyone using it — that's why it (and many mirrors) intermittently break. This README uses a community mirror as a stopgap.
 
-If that mirror also stops working, swap the `username=` link to any of these other mirrors (just replace the domain, keep everything after `?`):
+**Permanent fix:** deploy your own private copy (steps already covered separately) — once you have your own `.vercel.app` domain, send it over and only the domain in the line above needs to change.
+
+Other mirrors to try in the meantime if this one drops:
 - `https://github-profile-trophy-liard-delta.vercel.app`
 - `https://github-profile-trophy-fork-two.vercel.app`
 - `https://github-profile-trophy-kannan.vercel.app`
-
-The most permanent fix is self-hosting it via a GitHub Action (same idea as the snake animation above) — ask if you want that workflow added too.
 
 </details>
 
 ## 🗂️ Featured Projects
 
-<sub>Pin cards pull live stars / forks / language directly from GitHub — no manual updates needed.</sub>
+<sub>Every card below pulls its stars, forks, and language live from GitHub — nothing here is typed in manually, so it stays accurate as your repos change.</sub>
 
 <table align="center">
   <tr>
-    <td><a href="https://github.com/emmanuelmwangi88-ui/AxisPro"><img src="https://github-readme-stats.vercel.app/api/pin/?username=emmanuelmwangi88-ui&repo=AxisPro&hide_border=true&bg_color=141321&title_color=FF6AC1&icon_color=00F5FF&text_color=e0e0e0&border_radius=10" alt="AxisPro"/></a></td>
+    <td><a href="https://github.com/emmanuelmwangi88-ui/kotlinbasics"><img src="https://github-readme-stats.vercel.app/api/pin/?username=emmanuelmwangi88-ui&repo=kotlinbasics&hide_border=true&bg_color=141321&title_color=FF6AC1&icon_color=00F5FF&text_color=e0e0e0&border_radius=10" alt="kotlinbasics"/></a></td>
+    <td><a href="https://github.com/emmanuelmwangi88-ui/first-app"><img src="https://github-readme-stats.vercel.app/api/pin/?username=emmanuelmwangi88-ui&repo=first-app&hide_border=true&bg_color=141321&title_color=FF6AC1&icon_color=00F5FF&text_color=e0e0e0&border_radius=10" alt="first-app"/></a></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/emmanuelmwangi88-ui/Personal-portfolio"><img src="https://github-readme-stats.vercel.app/api/pin/?username=emmanuelmwangi88-ui&repo=Personal-portfolio&hide_border=true&bg_color=141321&title_color=FF6AC1&icon_color=00F5FF&text_color=e0e0e0&border_radius=10" alt="Personal-portfolio"/></a></td>
     <td><a href="https://github.com/emmanuelmwangi88-ui/PrimeHaven"><img src="https://github-readme-stats.vercel.app/api/pin/?username=emmanuelmwangi88-ui&repo=PrimeHaven&hide_border=true&bg_color=141321&title_color=FF6AC1&icon_color=00F5FF&text_color=e0e0e0&border_radius=10" alt="PrimeHaven"/></a></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/emmanuelmwangi88-ui/first-app"><img src="https://github-readme-stats.vercel.app/api/pin/?username=emmanuelmwangi88-ui&repo=first-app&hide_border=true&bg_color=141321&title_color=FF6AC1&icon_color=00F5FF&text_color=e0e0e0&border_radius=10" alt="first-app"/></a></td>
-    <td><a href="https://github.com/emmanuelmwangi88-ui/kotlinbasics"><img src="https://github-readme-stats.vercel.app/api/pin/?username=emmanuelmwangi88-ui&repo=kotlinbasics&hide_border=true&bg_color=141321&title_color=FF6AC1&icon_color=00F5FF&text_color=e0e0e0&border_radius=10" alt="kotlinbasics"/></a></td>
+    <td><a href="https://github.com/emmanuelmwangi88-ui/AxisPro"><img src="https://github-readme-stats.vercel.app/api/pin/?username=emmanuelmwangi88-ui&repo=AxisPro&hide_border=true&bg_color=141321&title_color=FF6AC1&icon_color=00F5FF&text_color=e0e0e0&border_radius=10" alt="AxisPro"/></a></td>
+    <td><a href="https://github.com/emmanuelmwangi88-ui/Python-Basics"><img src="https://github-readme-stats.vercel.app/api/pin/?username=emmanuelmwangi88-ui&repo=Python-Basics&hide_border=true&bg_color=141321&title_color=FF6AC1&icon_color=00F5FF&text_color=e0e0e0&border_radius=10" alt="Python-Basics"/></a></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/emmanuelmwangi88-ui/Birthday-card"><img src="https://github-readme-stats.vercel.app/api/pin/?username=emmanuelmwangi88-ui&repo=Birthday-card&hide_border=true&bg_color=141321&title_color=FF6AC1&icon_color=00F5FF&text_color=e0e0e0&border_radius=10" alt="Birthday-card"/></a></td>
+    <td></td>
   </tr>
 </table>
 
-| Project | What it is |
-|---|---|
-| **[AxisPro](https://github.com/emmanuelmwangi88-ui/AxisPro)** | Bootstrap 5 corporate landing-page template |
-| **[PrimeHaven](https://github.com/emmanuelmwangi88-ui/PrimeHaven)** | Multi-page Bootstrap online store template |
-| **[first-app](https://github.com/emmanuelmwangi88-ui/first-app)** | Kotlin / Android Studio app (Gradle project) |
-| **[kotlinbasics](https://github.com/emmanuelmwangi88-ui/kotlinbasics)** | Kotlin language fundamentals & practice |
-| **[Personal-portfolio](https://github.com/emmanuelmwangi88-ui/Personal-portfolio)** | My personal portfolio site |
-| **[Python-Basics](https://github.com/emmanuelmwangi88-ui/Python-Basics)** | Python fundamentals practice |
+<div align="center"><sub>🔗 AxisPro doesn't have a live demo yet — once GitHub Pages is turned on for it, a live link gets added here.</sub></div>
+
+## 🛣️ Currently Learning / Up Next
+
+<div align="center">
+
+`Kotlin & Android Studio` → going deeper into real app builds
+`JavaScript` → sharpening fundamentals for frontend work
+`Python` → building on the basics toward practical projects
+
+</div>
 
 ## 💬 Quote of the Visit
 
