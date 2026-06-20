@@ -119,7 +119,7 @@ jobs:
 ## 🏅 GitHub Achievements
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/emmanuelmwangi88-ui/emmanuelmwangi88-ui/main/metrics.achievements.svg" alt="GitHub achievements" width="95%"/>
+<img src="https://raw.githubusercontent.com/emmanuelmwangi88-ui/emmanuelmwangi88-ui/main/metrics.svg" alt="GitHub achievements" width="95%"/>
 </div>
 
 <details>
