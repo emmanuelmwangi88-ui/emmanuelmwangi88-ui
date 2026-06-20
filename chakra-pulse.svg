@@ -1,0 +1,52 @@
+<svg viewBox="0 0 1200 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="coreGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="35%" stop-color="#00F5FF"/>
+      <stop offset="100%" stop-color="#8A2BE2" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6AC1"/>
+      <stop offset="100%" stop-color="#00F5FF"/>
+    </linearGradient>
+    <filter id="energyGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="160" rx="14" fill="#0d0d16"/>
+
+  <g transform="translate(600,80)">
+
+    <!-- rotating outer spokes -->
+    <g stroke="url(#ringGrad)" stroke-width="3" opacity="0.8" filter="url(#energyGlow)">
+      <g>
+        <line x1="0" y1="-70" x2="0" y2="-50"/>
+        <line x1="0" y1="70" x2="0" y2="50"/>
+        <line x1="-70" y1="0" x2="-50" y2="0"/>
+        <line x1="70" y1="0" x2="50" y2="0"/>
+        <line x1="-50" y1="-50" x2="-36" y2="-36"/>
+        <line x1="50" y1="50" x2="36" y2="36"/>
+        <line x1="-50" y1="50" x2="-36" y2="36"/>
+        <line x1="50" y1="-50" x2="36" y2="-36"/>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="6s" repeatCount="indefinite"/>
+      </g>
+    </g>
+
+    <!-- middle ring, rotates opposite direction -->
+    <circle r="45" fill="none" stroke="url(#ringGrad)" stroke-width="2.5" stroke-dasharray="6 10" opacity="0.9" filter="url(#energyGlow)">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="4s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- pulsing core -->
+    <circle r="22" fill="url(#coreGrad)" filter="url(#energyGlow)">
+      <animate attributeName="r" values="18;26;18" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
+    </circle>
+
+  </g>
+</svg>

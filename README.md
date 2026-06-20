@@ -12,6 +12,10 @@
 
 </div>
 
+<div align="center">
+<img src="https://raw.githubusercontent.com/emmanuelmwangi88-ui/emmanuelmwangi88-ui/main/chainsaw-divider.svg" alt="divider" width="100%"/>
+</div>
+
 ## ⛓️ About Me
 
 ```python
@@ -149,6 +153,10 @@ Once the Action finishes, an `output` branch appears with the SVG and the image 
 
 <div align="center">
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="quote"/>
+</div>
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/emmanuelmwangi88-ui/emmanuelmwangi88-ui/main/chakra-pulse.svg" alt="energy divider" width="100%"/>
 </div>
 
 ## 📡 Open Contracts (Let's Connect)
