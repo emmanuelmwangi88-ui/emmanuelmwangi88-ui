@@ -72,19 +72,6 @@ class Denji(Developer):
   </tr>
 </table>
 
-<details>
-<summary>⚙️ Status + fallback options (click to expand)</summary>
-
-The official streak-stats host (`streak-stats.demolab.com`) shares its GitHub API token across everyone using it, so it intermittently breaks for the same reason the trophy widget does. This README currently uses a backup mirror as a stopgap.
-
-**Permanent fix:** finish your own private Vercel deploy with your own token (steps already covered separately) — once you have your domain, only the domain in the `img src` two sections up needs to change.
-
-Other options if this mirror also drops:
-- `https://streak-stats.demolab.com` (original — sometimes recovers)
-- `https://github-readme-streak-stats.vercel.app`
-
-</details>
-
 ## 📋 Recent GitHub Activity
 
 <!--START_SECTION:activity-->
@@ -129,52 +116,54 @@ jobs:
 
 <sub>⚙️ Auto-regenerated every 12 hours by the `snake.yml` GitHub Action already in this repo.</sub>
 
-<details>
-<summary>⚙️ Workflow reference (click to expand)</summary>
+## 🏅 GitHub Achievements
 
-This should already be in `.github/workflows/snake.yml` in this repo:
+<div align="center">
+<img src="https://raw.githubusercontent.com/emmanuelmwangi88-ui/emmanuelmwangi88-ui/main/metrics.achievements.svg" alt="GitHub achievements" width="95%"/>
+</div>
+
+<details>
+<summary>⚙️ One-time setup (click to expand)</summary>
+
+These are your real, official GitHub Achievements (Pull Shark, Quickdraw, etc.) — rendered by a GitHub Action you run yourself, not a third-party site, so it isn't affected by the rate-limit issues elsewhere in this README.
+
+1. Go to **Settings → Developer settings → Personal access tokens → Tokens (classic)** and generate a token with `repo` and `read:user` scopes.
+2. In this repo, go to **Settings → Secrets and variables → Actions → New repository secret**. Name it `METRICS_TOKEN`, paste the token as the value.
+3. Add a file at `.github/workflows/metrics.yml`:
 
 ```yaml
-name: Generate Snake Animation
-
+name: Metrics
 on:
   schedule:
-    - cron: "0 */12 * * *"   # every 12 hours
-  push:
-    branches:
-      - main
+    - cron: "0 0 * * *"   # once a day
   workflow_dispatch: {}
 
 jobs:
-  generate:
+  github-metrics:
+    runs-on: ubuntu-latest
     permissions:
       contents: write
-    runs-on: ubuntu-latest
     steps:
-      - name: Generate snake animation SVG
-        uses: Platane/snk@v3
+      - uses: lowlighter/metrics@latest
         with:
-          github_user_name: emmanuelmwangi88-ui
-          outputs: |
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            dist/github-contribution-grid-snake.svg
-
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          filename: metrics.achievements.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_threshold: C
+          plugin_achievements_secrets: yes
+          plugin_achievements_display: detailed
 ```
+
+4. Commit, push, then run it once from the **Actions** tab. It'll commit `metrics.achievements.svg` to your repo root, and the image above will populate — refreshing once a day on its own after that.
 
 </details>
 
 ## 🏆 Trophy Case
 
-<!-- Currently using a public mirror. Once you finish your own Vercel deploy, replace ONLY the domain below (keep everything after the ?) with your own, e.g. https://your-project-name.vercel.app -->
+<!-- Currently using an independent trophy fork (not the same congested pool as the official ryo-ma mirrors). Once your own Vercel deploy is ready, replace ONLY the domain below with your own. -->
 <div align="center">
-<img src="https://github-profile-trophy-winning.vercel.app/?username=emmanuelmwangi88-ui&theme=radical&no-frame=true&margin-w=10&row=1&column=7" alt="trophies"/>
+<img src="https://github-trophies.vercel.app/?username=emmanuelmwangi88-ui&theme=radical&no-frame=true&row=1&column=7" alt="trophies"/>
 </div>
 
 <details>
