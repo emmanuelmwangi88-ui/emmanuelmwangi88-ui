@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="270" viewBox="0 0 900 270" role="img" aria-label="GitHub achievements placeholder">
+  <rect width="900" height="270" fill="#141321"/>
+  <rect x="20" y="20" width="860" height="230" rx="24" fill="#1b1a2f" stroke="#8A2BE2" stroke-width="3"/>
+  <text x="450" y="110" fill="#ffffff" font-family="Inter,Arial,Helvetica,sans-serif" font-size="30" font-weight="700" text-anchor="middle">GitHub Achievements</text>
+  <text x="450" y="160" fill="#d0d0d0" font-family="Inter,Arial,Helvetica,sans-serif" font-size="18" text-anchor="middle">Metrics are ready to generate.</text>
+  <text x="450" y="190" fill="#9f9fd1" font-family="Inter,Arial,Helvetica,sans-serif" font-size="16" text-anchor="middle">Run `.github/workflows/metrics.yml` once after adding METRICS_TOKEN.</text>
+</svg>

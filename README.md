@@ -119,7 +119,7 @@ jobs:
 ## 🏅 GitHub Achievements
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/emmanuelmwangi88-ui/emmanuelmwangi88-ui/main/metrics.svg" alt="GitHub achievements" width="95%"/>
+<img src="metrics.svg" alt="GitHub achievements" width="95%"/>
 </div>
 
 <details>
@@ -144,9 +144,10 @@ jobs:
     permissions:
       contents: write
     steps:
+      - uses: actions/checkout@v4
       - uses: lowlighter/metrics@latest
         with:
-          filename: metrics.achievements.svg
+          filename: metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_achievements: yes
@@ -155,7 +156,7 @@ jobs:
           plugin_achievements_display: detailed
 ```
 
-4. Commit, push, then run it once from the **Actions** tab. It'll commit `metrics.achievements.svg` to your repo root, and the image above will populate — refreshing once a day on its own after that.
+4. Commit, push, then run it once from the **Actions** tab. It'll commit `metrics.svg` to your repo root, and the image above will populate — refreshing once a day on its own after that.
 
 </details>
 

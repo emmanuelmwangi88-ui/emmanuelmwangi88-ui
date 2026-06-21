@@ -10,9 +10,10 @@ jobs:
     permissions:
       contents: write
     steps:
+      - uses: actions/checkout@v4
       - uses: lowlighter/metrics@latest
         with:
-          filename: metrics.achievements.svg
+          filename: metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_achievements: yes
