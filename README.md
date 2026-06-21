@@ -116,50 +116,6 @@ jobs:
 
 <sub>⚙️ Auto-regenerated every 12 hours by the `snake.yml` GitHub Action already in this repo.</sub>
 
-## 🏅 GitHub Achievements
-
-<div align="center">
-<img src="metrics.svg" alt="GitHub achievements" width="95%"/>
-</div>
-
-<details>
-<summary>⚙️ One-time setup (click to expand)</summary>
-
-These are your real, official GitHub Achievements (Pull Shark, Quickdraw, etc.) — rendered by a GitHub Action you run yourself, not a third-party site, so it isn't affected by the rate-limit issues elsewhere in this README.
-
-1. Go to **Settings → Developer settings → Personal access tokens → Tokens (classic)** and generate a token with `repo` and `read:user` scopes.
-2. In this repo, go to **Settings → Secrets and variables → Actions → New repository secret**. Name it `METRICS_TOKEN`, paste the token as the value.
-3. Add a file at `.github/workflows/metrics.yml`:
-
-```yaml
-name: Metrics
-on:
-  schedule:
-    - cron: "0 0 * * *"   # once a day
-  workflow_dispatch: {}
-
-jobs:
-  github-metrics:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: actions/checkout@v4
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_achievements: yes
-          plugin_achievements_threshold: C
-          plugin_achievements_secrets: yes
-          plugin_achievements_display: detailed
-```
-
-4. Commit, push, then run it once from the **Actions** tab. It'll commit `metrics.svg` to your repo root, and the image above will populate — refreshing once a day on its own after that.
-
-</details>
-
 ## 🏆 Trophy Case
 
 <!-- Currently using an independent trophy fork (not the same congested pool as the official ryo-ma mirrors). Once your own Vercel deploy is ready, replace ONLY the domain below with your own. -->
