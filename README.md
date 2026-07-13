@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6AC1,50:8A2BE2,100:00F5FF&height=230&section=header&text=I'm%20Denji%20⚡&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlign=75&fontAlignY=65" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6AC1,50:8A2BE2,100:00F5FF&height=230&section=header&text=I'm%20Denji%20⚡&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=70" width="100%"/>
 
 <a href="https://github.com/emmanuelmwangi88-ui">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=FF6AC1&center=true&vCenter=true&width=600&lines=Building+things+that+bite+back.;Kotlin+%7C+Android+%7C+Frontend;Let's+craft+something+legendary.%0A" alt="typing svg" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=FF6AC1&center=true&vCenter=true&width=600&lines=Building+things+that+bite+back.;Kotlin+%26+Python+Developer;Always+shipping+code+%F0%9F%94%A5" alt="typing animation" width="600"/>
 </a>
 
 <img src="https://komarev.com/ghpvc/?username=emmanuelmwangi88-ui&label=Profile%20Views&color=FF6AC1&style=for-the-badge" alt="profile views"/>
@@ -54,7 +54,7 @@ class Denji(Developer):
 <sub>Pulled straight from my public repos — updates automatically, no manual editing.</sub>
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=emmanuelmwangi88-ui&layout=donut&hide_border=true&bg_color=141321&title_color=FF6AC1&text_color=e0e0e0&border_radius=10" alt="language stats"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=emmanuelmwangi88-ui&layout=donut&hide_border=true&bg_color=141321&title_color=FF6AC1&text_color=e0e0e0&border_radius=10" alt="language breakdown"/>
 </div>
 
 ## 📈 Coding Activity
@@ -68,7 +68,7 @@ class Denji(Developer):
 <table align="center">
   <tr>
     <td><img src="https://github-readme-stats.vercel.app/api?username=emmanuelmwangi88-ui&show_icons=true&hide_border=true&bg_color=141321&title_color=FF6AC1&icon_color=00F5FF&text_color=e0e0e0&border_radius=10" alt="github stats"/></td>
-    <td><img src="https://github-readme-streak-stats-eight.vercel.app/?user=emmanuelmwangi88-ui&hide_border=true&background=141321&ring=8A2BE2&fire=FF6AC1&currStreakLabel=00F5FF&border_radius=10" alt="streak stats"/></td>
+    <td><img src="https://github-streak-stats-eight.vercel.app/?user=emmanuelmwangi88-ui&hide_border=true&background=141321&ring=8A2BE2&fire=FF6AC1&currStreakLabel=00F5FF&border_radius=10" alt="streak stats"/></td>
   </tr>
 </table>
 
@@ -82,7 +82,7 @@ class Denji(Developer):
 <details>
 <summary>⚙️ One-time setup (click to expand)</summary>
 
-1. Go to **Settings → Developer settings → Personal access tokens → Tokens (classic)** on GitHub and generate a new token with the `repo` scope.
+1. Go to **Settings → Developer settings → Personal access tokens → Tokens (classic)** on GitHub and generate a new token with the `repo` and `read:user` scopes.
 2. In this repo, go to **Settings → Secrets and variables → Actions → New repository secret**. Name it `GH_TOKEN` and paste the token as the value.
 3. The workflow is already set up in `.github/workflows/activity.yml` and ready to run.
 4. Go to the **Actions** tab and manually run "Update Recent Activity" once. It will then update automatically every 30 minutes.
@@ -123,19 +123,19 @@ Other mirrors to try in the meantime if this one drops:
 
 <table align="center">
   <tr>
-    <td><a href="https://github.com/emmanuelmwangi88-ui/kotlinbasics"><img src="https://github-readme-stats.vercel.app/api/pin/?username=emmanuelmwangi88-ui&repo=kotlinbasics&hide_border=true&bg_color=141321&title_color=FF6AC1&icon_color=00F5FF&text_color=e0e0e0&border_radius=10" alt="kotlinbasics"/></a></td>
-    <td><a href="https://github.com/emmanuelmwangi88-ui/first-app"><img src="https://github-readme-stats.vercel.app/api/pin/?username=emmanuelmwangi88-ui&repo=first-app&hide_border=true&bg_color=141321&title_color=FF6AC1&icon_color=00F5FF&text_color=e0e0e0&border_radius=10" alt="first-app"/></a></td>
+    <td><a href="https://github.com/emmanuelmwangi88-ui/kotlinbasics"><img src="https://github-readme-stats.vercel.app/api/pin/?username=emmanuelmwangi88-ui&repo=kotlinbasics&hide_border=true&bg_color=141321&title_color=FF6AC1&text_color=e0e0e0" alt="kotlinbasics"/></a></td>
+    <td><a href="https://github.com/emmanuelmwangi88-ui/first-app"><img src="https://github-readme-stats.vercel.app/api/pin/?username=emmanuelmwangi88-ui&repo=first-app&hide_border=true&bg_color=141321&title_color=FF6AC1&text_color=e0e0e0" alt="first-app"/></a></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/emmanuelmwangi88-ui/Personal-portfolio"><img src="https://github-readme-stats.vercel.app/api/pin/?username=emmanuelmwangi88-ui&repo=Personal-portfolio&hide_border=true&bg_color=141321&title_color=FF6AC1&icon_color=00F5FF&text_color=e0e0e0&border_radius=10" alt="Personal-portfolio"/></a></td>
-    <td><a href="https://github.com/emmanuelmwangi88-ui/PrimeHaven"><img src="https://github-readme-stats.vercel.app/api/pin/?username=emmanuelmwangi88-ui&repo=PrimeHaven&hide_border=true&bg_color=141321&title_color=FF6AC1&icon_color=00F5FF&text_color=e0e0e0&border_radius=10" alt="PrimeHaven"/></a></td>
+    <td><a href="https://github.com/emmanuelmwangi88-ui/Personal-portfolio"><img src="https://github-readme-stats.vercel.app/api/pin/?username=emmanuelmwangi88-ui&repo=Personal-portfolio&hide_border=true&bg_color=141321&title_color=FF6AC1&text_color=e0e0e0" alt="Personal-portfolio"/></a></td>
+    <td><a href="https://github.com/emmanuelmwangi88-ui/PrimeHaven"><img src="https://github-readme-stats.vercel.app/api/pin/?username=emmanuelmwangi88-ui&repo=PrimeHaven&hide_border=true&bg_color=141321&title_color=FF6AC1&text_color=e0e0e0" alt="PrimeHaven"/></a></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/emmanuelmwangi88-ui/AxisPro"><img src="https://github-readme-stats.vercel.app/api/pin/?username=emmanuelmwangi88-ui&repo=AxisPro&hide_border=true&bg_color=141321&title_color=FF6AC1&icon_color=00F5FF&text_color=e0e0e0&border_radius=10" alt="AxisPro"/></a></td>
-    <td><a href="https://github.com/emmanuelmwangi88-ui/Python-Basics"><img src="https://github-readme-stats.vercel.app/api/pin/?username=emmanuelmwangi88-ui&repo=Python-Basics&hide_border=true&bg_color=141321&title_color=FF6AC1&icon_color=00F5FF&text_color=e0e0e0&border_radius=10" alt="Python-Basics"/></a></td>
+    <td><a href="https://github.com/emmanuelmwangi88-ui/AxisPro"><img src="https://github-readme-stats.vercel.app/api/pin/?username=emmanuelmwangi88-ui&repo=AxisPro&hide_border=true&bg_color=141321&title_color=FF6AC1&text_color=e0e0e0" alt="AxisPro"/></a></td>
+    <td><a href="https://github.com/emmanuelmwangi88-ui/Python-Basics"><img src="https://github-readme-stats.vercel.app/api/pin/?username=emmanuelmwangi88-ui&repo=Python-Basics&hide_border=true&bg_color=141321&title_color=FF6AC1&text_color=e0e0e0" alt="Python-Basics"/></a></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/emmanuelmwangi88-ui/Birthday-card"><img src="https://github-readme-stats.vercel.app/api/pin/?username=emmanuelmwangi88-ui&repo=Birthday-card&hide_border=true&bg_color=141321&title_color=FF6AC1&icon_color=00F5FF&text_color=e0e0e0&border_radius=10" alt="Birthday-card"/></a></td>
+    <td><a href="https://github.com/emmanuelmwangi88-ui/Birthday-card"><img src="https://github-readme-stats.vercel.app/api/pin/?username=emmanuelmwangi88-ui&repo=Birthday-card&hide_border=true&bg_color=141321&title_color=FF6AC1&text_color=e0e0e0" alt="Birthday-card"/></a></td>
     <td></td>
   </tr>
 </table>
