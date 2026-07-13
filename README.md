@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6AC1,50:8A2BE2,100:00F5FF&height=230&section=header&text=I'm%20Denji%20⚡&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=70" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6AC1,50:8A2BE2,100:00F5FF&height=230&section=header&text=I'm%20Denji%20⚡&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=80" alt="header" width="100%"/>
 
 <a href="https://github.com/emmanuelmwangi88-ui">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=FF6AC1&center=true&vCenter=true&width=600&lines=Building+things+that+bite+back.;Kotlin+%26+Python+Developer;Always+shipping+code+%F0%9F%94%A5" alt="typing animation" width="600"/>
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=FF6AC1&center=true&vCenter=true&width=600&lines=Building+things+that+bite+back.;Kotlin%2BAndroid%2BFrontend;Debug+like+your+life+depends+on+it." alt="typing"/>
 </a>
 
 <img src="https://komarev.com/ghpvc/?username=emmanuelmwangi88-ui&label=Profile%20Views&color=FF6AC1&style=for-the-badge" alt="profile views"/>
@@ -54,7 +54,7 @@ class Denji(Developer):
 <sub>Pulled straight from my public repos — updates automatically, no manual editing.</sub>
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=emmanuelmwangi88-ui&layout=donut&hide_border=true&bg_color=141321&title_color=FF6AC1&text_color=e0e0e0&border_radius=10" alt="language breakdown"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=emmanuelmwangi88-ui&layout=donut&hide_border=true&bg_color=141321&title_color=FF6AC1&text_color=e0e0e0&border_radius=10" alt="top languages"/>
 </div>
 
 ## 📈 Coding Activity
@@ -116,31 +116,6 @@ Other mirrors to try in the meantime if this one drops:
 - `https://github-profile-trophy-kannan.vercel.app`
 
 </details>
-
-## 🗂️ Featured Projects
-
-<sub>Every card below pulls its stars, forks, and language live from GitHub — nothing here is typed in manually, so it stays accurate as your repos change.</sub>
-
-<table align="center">
-  <tr>
-    <td><a href="https://github.com/emmanuelmwangi88-ui/kotlinbasics"><img src="https://github-readme-stats.vercel.app/api/pin/?username=emmanuelmwangi88-ui&repo=kotlinbasics&hide_border=true&bg_color=141321&title_color=FF6AC1&text_color=e0e0e0" alt="kotlinbasics"/></a></td>
-    <td><a href="https://github.com/emmanuelmwangi88-ui/first-app"><img src="https://github-readme-stats.vercel.app/api/pin/?username=emmanuelmwangi88-ui&repo=first-app&hide_border=true&bg_color=141321&title_color=FF6AC1&text_color=e0e0e0" alt="first-app"/></a></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/emmanuelmwangi88-ui/Personal-portfolio"><img src="https://github-readme-stats.vercel.app/api/pin/?username=emmanuelmwangi88-ui&repo=Personal-portfolio&hide_border=true&bg_color=141321&title_color=FF6AC1&text_color=e0e0e0" alt="Personal-portfolio"/></a></td>
-    <td><a href="https://github.com/emmanuelmwangi88-ui/PrimeHaven"><img src="https://github-readme-stats.vercel.app/api/pin/?username=emmanuelmwangi88-ui&repo=PrimeHaven&hide_border=true&bg_color=141321&title_color=FF6AC1&text_color=e0e0e0" alt="PrimeHaven"/></a></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/emmanuelmwangi88-ui/AxisPro"><img src="https://github-readme-stats.vercel.app/api/pin/?username=emmanuelmwangi88-ui&repo=AxisPro&hide_border=true&bg_color=141321&title_color=FF6AC1&text_color=e0e0e0" alt="AxisPro"/></a></td>
-    <td><a href="https://github.com/emmanuelmwangi88-ui/Python-Basics"><img src="https://github-readme-stats.vercel.app/api/pin/?username=emmanuelmwangi88-ui&repo=Python-Basics&hide_border=true&bg_color=141321&title_color=FF6AC1&text_color=e0e0e0" alt="Python-Basics"/></a></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/emmanuelmwangi88-ui/Birthday-card"><img src="https://github-readme-stats.vercel.app/api/pin/?username=emmanuelmwangi88-ui&repo=Birthday-card&hide_border=true&bg_color=141321&title_color=FF6AC1&text_color=e0e0e0" alt="Birthday-card"/></a></td>
-    <td></td>
-  </tr>
-</table>
-
-<div align="center"><sub>🔗 AxisPro doesn't have a live demo yet — once GitHub Pages is turned on for it, a live link gets added here.</sub></div>
 
 ## 🛣️ Currently Learning / Up Next
 
