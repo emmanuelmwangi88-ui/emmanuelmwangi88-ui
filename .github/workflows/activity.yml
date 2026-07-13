@@ -5,11 +5,19 @@ on:
     - cron: "*/30 * * * *"   # every 30 minutes
   workflow_dispatch: {}
 
+permissions:
+  contents: read
+  actions: read
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: jamesgeorge007/github-activity-readme@master
+      
+      - name: Update GitHub Activity
+        uses: jamesgeorge007/github-activity-readme@master
+        with:
+          ACTIVITIES_USER: ${{ github.repository_owner }}
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
