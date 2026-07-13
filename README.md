@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6AC1,50:8A2BE2,100:00F5FF&height=230&section=header&text=I'm%20Denji%20⚡&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Android%20%2F%20Kotlin%20Dev%20%7C%20Code%20Devil%20Hunter&descAlignY=58&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6AC1,50:8A2BE2,100:00F5FF&height=230&section=header&text=I'm%20Denji%20⚡&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlign=75&fontAlignY=65" width="100%"/>
 
 <a href="https://github.com/emmanuelmwangi88-ui">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=FF6AC1&center=true&vCenter=true&width=600&lines=Building+things+that+bite+back.;Kotlin+%2F+Android+%2F+JavaScript+dev;Turning+bugs+into+contracts...+one+by+one.;Welcome+to+my+terminal." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=FF6AC1&center=true&vCenter=true&width=600&lines=Building+things+that+bite+back.;Kotlin+%7C+Android+%7C+Frontend;Let's+craft+something+legendary.%0A" alt="typing svg" />
 </a>
 
 <img src="https://komarev.com/ghpvc/?username=emmanuelmwangi88-ui&label=Profile%20Views&color=FF6AC1&style=for-the-badge" alt="profile views"/>
@@ -54,21 +54,21 @@ class Denji(Developer):
 <sub>Pulled straight from my public repos — updates automatically, no manual editing.</sub>
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=emmanuelmwangi88-ui&layout=donut&hide_border=true&bg_color=141321&title_color=FF6AC1&text_color=e0e0e0&border_radius=10" alt="Top Languages" width="420"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=emmanuelmwangi88-ui&layout=donut&hide_border=true&bg_color=141321&title_color=FF6AC1&text_color=e0e0e0&border_radius=10" alt="language stats"/>
 </div>
 
 ## 📈 Coding Activity
 
 <div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=emmanuelmwangi88-ui&bg_color=141321&color=00F5FF&line=FF6AC1&point=ffffff&area=true&hide_border=true&area_color=8A2BE2" alt="activity graph" width="95%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=emmanuelmwangi88-ui&bg_color=141321&color=00F5FF&line=FF6AC1&point=ffffff&area=true&hide_border=true&area_color=8A2BE2" alt="activity graph"/>
 </div>
 
 ## 📊 Battle Stats
 
 <table align="center">
   <tr>
-    <td><img src="https://github-readme-stats.vercel.app/api?username=emmanuelmwangi88-ui&show_icons=true&hide_border=true&bg_color=141321&title_color=FF6AC1&icon_color=00F5FF&text_color=e0e0e0&border_radius=10" alt="GitHub Stats" width="100%"/></td>
-    <td><img src="https://github-readme-streak-stats-eight.vercel.app/?user=emmanuelmwangi88-ui&hide_border=true&background=141321&ring=8A2BE2&fire=FF6AC1&currStreakLabel=00F5FF&border_radius=10" alt="GitHub Streak" width="100%"/></td>
+    <td><img src="https://github-readme-stats.vercel.app/api?username=emmanuelmwangi88-ui&show_icons=true&hide_border=true&bg_color=141321&title_color=FF6AC1&icon_color=00F5FF&text_color=e0e0e0&border_radius=10" alt="github stats"/></td>
+    <td><img src="https://github-readme-streak-stats-eight.vercel.app/?user=emmanuelmwangi88-ui&hide_border=true&background=141321&ring=8A2BE2&fire=FF6AC1&currStreakLabel=00F5FF&border_radius=10" alt="streak stats"/></td>
   </tr>
 </table>
 
@@ -84,27 +84,8 @@ class Denji(Developer):
 
 1. Go to **Settings → Developer settings → Personal access tokens → Tokens (classic)** on GitHub and generate a new token with the `repo` scope.
 2. In this repo, go to **Settings → Secrets and variables → Actions → New repository secret**. Name it `GH_TOKEN` and paste the token as the value.
-3. Add a file at `.github/workflows/activity.yml` with this content:
-
-```yaml
-name: Update Recent Activity
-
-on:
-  schedule:
-    - cron: "*/30 * * * *"   # every 30 minutes
-  workflow_dispatch: {}
-
-jobs:
-  update-readme:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: jamesgeorge007/github-activity-readme@master
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-```
-
-4. Commit, push, then run it once from the **Actions** tab. The two comment markers above will fill in with your real recent activity and keep updating every 30 minutes on their own.
+3. The workflow is already set up in `.github/workflows/activity.yml` and ready to run.
+4. Go to the **Actions** tab and manually run "Update Recent Activity" once. It will then update automatically every 30 minutes.
 
 </details>
 
@@ -118,7 +99,6 @@ jobs:
 
 ## 🏆 Trophy Case
 
-<!-- Currently using an independent trophy fork (not the same congested pool as the official ryo-ma mirrors). Once your own Vercel deploy is ready, replace ONLY the domain below with your own. -->
 <div align="center">
 <img src="https://github-trophies.vercel.app/?username=emmanuelmwangi88-ui&theme=radical&no-frame=true&row=1&column=7" alt="trophies"/>
 </div>
@@ -126,9 +106,9 @@ jobs:
 <details>
 <summary>⚙️ Status + fallback options (click to expand)</summary>
 
-The official trophy server (`github-profile-trophy.vercel.app`) is hitting GitHub API rate limits shared across everyone using it — that's why it (and many mirrors) intermittently break. This README uses a community mirror as a stopgap.
+The official trophy server (`github-profile-trophy.vercel.app`) is hitting GitHub API rate limits shared across everyone using it — that's why it (and many mirrors) intermittently break.
 
-**Permanent fix:** deploy your own private copy (steps already covered separately) — once you have your own `.vercel.app` domain, send it over and only the domain in the line above needs to change.
+**Permanent fix:** deploy your own private copy — once you have your own `.vercel.app` domain, send it over and only the domain in the line above needs to change.
 
 Other mirrors to try in the meantime if this one drops:
 - `https://github-profile-trophy-liard-delta.vercel.app`
