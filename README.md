@@ -54,7 +54,7 @@ class Denji(Developer):
 <sub>Pulled straight from my public repos — updates automatically, no manual editing.</sub>
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=emmanuelmwangi88-ui&layout=donut&hide_border=true&bg_color=141321&title_color=FF6AC1&text_color=e0e0e0&border_radius=10" alt="top languages"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=emmanuelmwangi88-ui&layout=compact&hide_border=true&bg_color=141321&title_color=FF6AC1&text_color=e0e0e0&border_radius=10&card_width=500" alt="top languages"/>
 </div>
 
 ## 📈 Coding Activity
@@ -65,12 +65,20 @@ class Denji(Developer):
 
 ## 📊 Battle Stats
 
-<table align="center">
+<div align="center">
+
+<table>
   <tr>
-    <td><img src="https://github-readme-stats.vercel.app/api?username=emmanuelmwangi88-ui&show_icons=true&hide_border=true&bg_color=141321&title_color=FF6AC1&icon_color=00F5FF&text_color=e0e0e0&border_radius=10" alt="github stats"/></td>
-    <td><img src="https://github-streak-stats-eight.vercel.app/?user=emmanuelmwangi88-ui&hide_border=true&background=141321&ring=8A2BE2&fire=FF6AC1&currStreakLabel=00F5FF&border_radius=10" alt="streak stats"/></td>
+    <td align="center">
+      <img width="400" src="https://github-readme-stats.vercel.app/api?username=emmanuelmwangi88-ui&show_icons=true&hide_border=true&bg_color=141321&title_color=FF6AC1&icon_color=00F5FF&text_color=e0e0e0&border_radius=10&count_private=true&include_all_commits=true" alt="github stats"/>
+    </td>
+    <td align="center">
+      <img width="350" src="https://github-readme-streak-stats.herokuapp.com/?user=emmanuelmwangi88-ui&hide_border=true&background=141321&ring=FF6AC1&fire=00F5FF&currStreakLabel=8A2BE2&sideNums=e0e0e0&border_radius=10" alt="streak stats"/>
+    </td>
   </tr>
 </table>
+
+</div>
 
 ## 📋 Recent GitHub Activity
 
@@ -80,12 +88,9 @@ class Denji(Developer):
 <sub>⚙️ This list fills in automatically with your real latest commits, PRs, issues, and stars — see setup below.</sub>
 
 <details>
-<summary>⚙️ One-time setup (click to expand)</summary>
+<summary>⚙️ Activity setup (click to expand)</summary>
 
-1. Go to **Settings → Developer settings → Personal access tokens → Tokens (classic)** on GitHub and generate a new token with the `repo` and `read:user` scopes.
-2. In this repo, go to **Settings → Secrets and variables → Actions → New repository secret**. Name it `GH_TOKEN` and paste the token as the value.
-3. The workflow is already set up in `.github/workflows/activity.yml` and ready to run.
-4. Go to the **Actions** tab and manually run "Update Recent Activity" once. It will then update automatically every 30 minutes.
+The "Recent GitHub Activity" section is auto-populated by a GitHub Actions workflow. No manual setup is needed—it runs automatically every 30 minutes with your built-in `GITHUB_TOKEN`. If it's not working, go to **Actions → Update Recent Activity → Run workflow**.
 
 </details>
 
@@ -95,25 +100,18 @@ class Denji(Developer):
 <img src="https://raw.githubusercontent.com/emmanuelmwangi88-ui/emmanuelmwangi88-ui/output/github-contribution-grid-snake-dark.svg" alt="snake animation" width="95%"/>
 </div>
 
-<sub>⚙️ Auto-regenerated every 12 hours by the `snake.yml` GitHub Action already in this repo.</sub>
+<sub>⚙️ Auto-regenerated every 12 hours by the `snake.yml` GitHub Action.</sub>
 
 ## 🏆 Trophy Case
 
 <div align="center">
-<img src="https://github-trophies.vercel.app/?username=emmanuelmwangi88-ui&theme=radical&no-frame=true&row=1&column=7" alt="trophies"/>
+<img src="https://github-profile-trophy.vercel.app/?username=emmanuelmwangi88-ui&theme=radical&no-frame=true&row=1&column=7" alt="trophies"/>
 </div>
 
 <details>
-<summary>⚙️ Status + fallback options (click to expand)</summary>
+<summary>ℹ️ Trophy issues? (click to expand)</summary>
 
-The official trophy server (`github-profile-trophy.vercel.app`) is hitting GitHub API rate limits shared across everyone using it — that's why it (and many mirrors) intermittently break.
-
-**Permanent fix:** deploy your own private copy — once you have your own `.vercel.app` domain, send it over and only the domain in the line above needs to change.
-
-Other mirrors to try in the meantime if this one drops:
-- `https://github-profile-trophy-liard-delta.vercel.app`
-- `https://github-profile-trophy-fork-two.vercel.app`
-- `https://github-profile-trophy-kannan.vercel.app`
+The trophy server occasionally hits rate limits. If trophies don't display, try refreshing or use an alternative mirror. This is a known issue with GitHub API rate limiting, not your account.
 
 </details>
 
@@ -121,8 +119,8 @@ Other mirrors to try in the meantime if this one drops:
 
 <div align="center">
 
-`Kotlin & Android Studio` → going deeper into real app builds
-`JavaScript` → sharpening fundamentals for frontend work
+`Kotlin & Android Studio` → going deeper into real app builds  
+`JavaScript` → sharpening fundamentals for frontend work  
 `Python` → building on the basics toward practical projects
 
 </div>
