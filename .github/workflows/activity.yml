@@ -3,24 +3,13 @@ name: Update Recent Activity
 on:
   schedule:
     - cron: "*/30 * * * *"   # every 30 minutes
-  workflow_dispatch:
-
-permissions:
-  contents: write
-  actions: read
+  workflow_dispatch: {}
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          persist-credentials: true
-
-      - name: Update GitHub Activity
-        uses: jamesgeorge007/github-activity-readme@master
-        with:
-          GH_USERNAME: ${{ github.repository_owner }}
+      - uses: actions/checkout@v4
+      - uses: jamesgeorge007/github-activity-readme@master
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
