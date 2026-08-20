@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6AC1,50:8A2BE2,100:00F5FF&height=230&section=header&text=I'm%20Denji%20⚡&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=80" alt="header" width="100%"/>
 
 <a href="https://github.com/emmanuelmwangi88-ui">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=FF6AC1&center=true&vCenter=true&width=600&lines=Building+things+that+bite+back.;Kotlin%2BAndroid%2BFrontend;Debug+like+your+life+depends+on+it." alt="typing"/>
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=FF6AC1&center=true&vCenter=true&width=600&lines=Building+things+that+bite+back.;Full-Stack+Web+%2B+App+%2B+AI+Dev;Debug+like+your+life+depends+on+it." alt="typing"/>
 </a>
 
 <img src="https://komarev.com/ghpvc/?username=emmanuelmwangi88-ui&label=Profile%20Views&color=FF6AC1&style=for-the-badge" alt="profile views"/>
@@ -27,10 +27,11 @@ class Denji(Developer):
     def __init__(self):
         self.real_name   = "Emmanuel Mwangi"
         self.alias       = "Denji"
-        self.role        = "Android / Kotlin Developer & Frontend Builder"
-        self.stack       = ["Kotlin", "Python", "JavaScript", "HTML", "CSS", "Bootstrap"]
-        self.weapon      = "Android Studio ⚙️"
-        self.status      = "Hunting bugs, signing contracts with clean code"
+        self.role        = "Full-Stack Web & App Developer | AI Developer"
+        self.stack       = ["Kotlin", "Jetpack Compose", "Python", "Django", "FastAPI",
+                             "JavaScript", "Node.js / Express", "HTML", "CSS", "Firebase", "Supabase"]
+        self.weapon      = "Android Studio + VS Code ⚙️"
+        self.status      = "Shipping fintech, proptech, fitness, edtech & AI-powered apps"
         self.location    = "Kenya 🇰🇪"
         self.email       = "emmanuelmwangi88@gmail.com"
 
@@ -39,26 +40,37 @@ class Denji(Developer):
 ```
 
 * 🩸 I write code the way Denji swings a chainsaw — fast, fearless, and a little chaotic until it works.
-* 🛠️ Currently leveling up my **Kotlin / Android** game and sharpening **JavaScript** for the frontend fights.
-* 🐍 Building my **Python** fundamentals on the side.
+* 🛠️ Full-stack developer across **Android** (Kotlin/Jetpack Compose), **web** (Django, Node.js/Express, vanilla JS), and **AI tooling** (FastAPI + Ollama + RAG pipelines).
+* 💳 Ship real products across fintech (M-Pesa Daraja), proptech, fitness, edtech, and travel domains.
 * 📡 Always open to collabs, gigs, and devil-contracts (a.k.a. interesting projects) — reach me at **emmanuelmwangi88@gmail.com**.
 
 ## ⚔️ Tech Arsenal
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=kotlin,androidstudio,python,js,html,css,bootstrap,git,github,vscode&theme=dark&perline=10" alt="skills"/>
+<img src="https://skillicons.dev/icons?i=kotlin,androidstudio,python,django,fastapi,js,nodejs,express,html,css,bootstrap,firebase,git,github,vscode&theme=dark&perline=10" alt="skills"/>
+</div>
+
+## 🚀 Featured Projects
+
+<div align="center">
+
+| Project | What it does |
+|---|---|
+| [**StepStack**](https://github.com/emmanuelmwangi88-ui/StepStack_app) | Kotlin/Jetpack Compose fitness app — step tracking, guided workouts, streaks, and a Firestore-powered social/leaderboard layer with FCM push notifications |
+| [**FeeFlow**](https://github.com/emmanuelmwangi88-ui/Fee-flow) | Django multi-tenant school fee management portal for Kenyan schools, with M-Pesa Daraja STK push and OTP parent login |
+| [**WakaBaba Tours & Travel**](https://github.com/emmanuelmwangi88-ui/Wakababatours) | Full wildlife-tourism site for a Kenyan safari company — 16 destinations, live KSh price calculator, booking flow, and admin dashboard |
+| [**Offline AI Study Assistant**](https://github.com/emmanuelmwangi88-ui/Offline-AI-Study-Assistant) | Fully offline RAG study assistant powered by Ollama — upload notes (text/PDF/photos), get grounded Q&A, quizzes, and spaced-repetition review |
+| [**chatbot_ui**](https://github.com/emmanuelmwangi88-ui/chatbot_ui) | Local FastAPI + Ollama chatbot with per-session history and PDF context loading |
+| [**Study Circle**](https://github.com/emmanuelmwangi88-ui/Study-Circle) | Collaborative learning platform for students and teachers to form study groups and share resources |
+| [**PrimeHaven**](https://github.com/emmanuelmwangi88-ui/PrimeHaven) | Web platform for property/proptech workflows *(in progress)* |
+| [**AxisPro**](https://github.com/emmanuelmwangi88-ui/AxisPro) | Web dashboard/tooling project *(in progress)* |
+
 </div>
 
 ## 📈 Coding Activity
 
 <div align="center">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=emmanuelmwangi88-ui&bg_color=141321&color=00F5FF&line=FF6AC1&point=ffffff&area=true&hide_border=true&area_color=8A2BE2" alt="activity graph"/>
-</div>
-
-## 📊 Battle Stats
-
-<div align="center">
-<img width="350" src="https://github-readme-streak-stats.herokuapp.com/?user=emmanuelmwangi88-ui&hide_border=true&background=141321&ring=FF6AC1&fire=00F5FF&currStreakLabel=8A2BE2&sideNums=e0e0e0&border_radius=10" alt="streak stats"/>
 </div>
 
 ## 📋 Recent GitHub Activity
@@ -83,26 +95,13 @@ The "Recent GitHub Activity" section is auto-populated by a GitHub Actions workf
 
 <sub>⚙️ Auto-regenerated every 12 hours by the `snake.yml` GitHub Action.</sub>
 
-## 🏆 Trophy Case
-
-<div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=emmanuelmwangi88-ui&theme=radical&no-frame=true&row=1&column=7" alt="trophies"/>
-</div>
-
-<details>
-<summary>ℹ️ Trophy issues? (click to expand)</summary>
-
-The trophy server occasionally hits rate limits. If trophies don't display, try refreshing or use an alternative mirror. This is a known issue with GitHub API rate limiting, not your account.
-
-</details>
-
 ## 🛣️ Currently Learning / Up Next
 
 <div align="center">
 
-`Kotlin & Android Studio` → going deeper into real app builds  
-`JavaScript` → sharpening fundamentals for frontend work  
-`Python` → building on the basics toward practical projects
+`Kotlin & Jetpack Compose` → deeper into production-grade Android builds  
+`Django & FastAPI` → sharpening backend architecture for fintech/edtech apps  
+`Local LLMs & RAG` → Ollama-based offline AI tooling and agentic pipelines
 
 </div>
 
