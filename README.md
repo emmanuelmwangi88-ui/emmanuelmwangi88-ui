@@ -49,14 +49,6 @@ class Denji(Developer):
 <img src="https://skillicons.dev/icons?i=kotlin,androidstudio,python,js,html,css,bootstrap,git,github,vscode&theme=dark&perline=10" alt="skills"/>
 </div>
 
-## 🎯 Live Language Breakdown
-
-<sub>Pulled straight from my public repos — updates automatically, no manual editing.</sub>
-
-<div align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=emmanuelmwangi88-ui&layout=compact&hide_border=true&bg_color=141321&title_color=FF6AC1&text_color=e0e0e0&border_radius=10&card_width=500&cache_seconds=86400" alt="top languages"/>
-</div>
-
 ## 📈 Coding Activity
 
 <div align="center">
@@ -66,18 +58,7 @@ class Denji(Developer):
 ## 📊 Battle Stats
 
 <div align="center">
-
-<table>
-  <tr>
-    <td align="center">
-      <img width="400" src="https://github-readme-stats.vercel.app/api?username=emmanuelmwangi88-ui&show_icons=true&hide_border=true&bg_color=141321&title_color=FF6AC1&icon_color=00F5FF&text_color=e0e0e0&border_radius=10&count_private=true&include_all_commits=true&cache_seconds=86400" alt="github stats"/>
-    </td>
-    <td align="center">
-      <img width="350" src="https://github-readme-streak-stats.herokuapp.com/?user=emmanuelmwangi88-ui&hide_border=true&background=141321&ring=FF6AC1&fire=00F5FF&currStreakLabel=8A2BE2&sideNums=e0e0e0&border_radius=10" alt="streak stats"/>
-    </td>
-  </tr>
-</table>
-
+<img width="350" src="https://github-readme-streak-stats.herokuapp.com/?user=emmanuelmwangi88-ui&hide_border=true&background=141321&ring=FF6AC1&fire=00F5FF&currStreakLabel=8A2BE2&sideNums=e0e0e0&border_radius=10" alt="streak stats"/>
 </div>
 
 ## 📋 Recent GitHub Activity
