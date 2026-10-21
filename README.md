@@ -1,6 +1,6 @@
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:FF6AC1,50:8A2BE2,100:00F5FF&height=230&section=header&text=Emmanuel%20Mwangi&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=aka%20Denji%20%E2%80%A2%20Full-Stack%20Web%20%26%20Android%20Developer%20%E2%80%A2%20AI%20Developer&descAlignY=58&descSize=18)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6AC1,50:8A2BE2,100:00F5FF&height=230&section=header&text=I'm%20Denji%20⚡&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=80" alt="header" width="100%"/>
 
 [![typing](https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=FF6AC1&center=true&vCenter=true&width=700&lines=Building+products+for+the+Kenyan+market;M-Pesa+payments+%2B+Android+%2B+Django+%2B+AI;Ship+it.+Break+it.+Fix+it.+Ship+it+better.)](https://github.com/emmanuelmwangi88-ui)
 
@@ -13,7 +13,24 @@
 
 ![divider](chainsaw-divider.svg)
 
-## ⛓️ About me
+## ⛓️ About Me
+
+```python
+class Denji(Developer):
+    def __init__(self):
+        self.real_name   = "Emmanuel Mwangi"
+        self.alias       = "Denji"
+        self.role        = "Full-Stack Web & App Developer | AI Developer"
+        self.stack       = ["Kotlin", "Jetpack Compose", "Python", "Django", "FastAPI",
+                             "JavaScript", "Node.js / Express", "HTML", "CSS", "Firebase", "Supabase"]
+        self.weapon      = "Android Studio + VS Code ⚙️"
+        self.status      = "Shipping fintech, proptech, fitness, edtech & AI-powered apps"
+        self.location    = "Kenya 🇰🇪"
+        self.email       = "emmanuelmwangi88@gmail.com"
+
+    def goals(self):
+        return "Ship projects worth showing off, level by level."
+```
 
 I'm a full-stack and Android developer who ships real products, not just tutorials. Most of what I build sits where **mobile money, local business and software meet**: M-Pesa checkouts, school fee collection, property rentals, safari bookings, and fitness tracking, plus an AI side where I build **local, offline-first assistants and RAG apps**.
 
@@ -22,14 +39,6 @@ I'm a full-stack and Android developer who ships real products, not just tutoria
 - 🤖 **AI:** Ollama (local LLMs), RAG pipelines, embeddings and vector search, Claude API
 - 💳 **Payments:** Safaricom **M-Pesa Daraja** (STK push) integrations
 
-```python
-class Denji(Developer):
-    name     = "Emmanuel Mwangi"
-    focus    = ["Fintech", "Proptech", "Edtech", "Fitness", "Local AI"]
-    building = "Nestify, a Kenyan rental & short-stay marketplace"
-    weapon   = "Android Studio + VS Code ⚙️"
-    contact  = "emmanuelmwangi88@gmail.com"
-```
 
 ## ⚔️ Tech arsenal
 
