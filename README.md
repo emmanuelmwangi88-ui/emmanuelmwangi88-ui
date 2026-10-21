@@ -39,7 +39,6 @@ I'm a full-stack and Android developer who ships real products, not just tutoria
 - 🤖 **AI:** Ollama (local LLMs), RAG pipelines, embeddings and vector search, Claude API
 - 💳 **Payments:** Safaricom **M-Pesa Daraja** (STK push) integrations
 
-
 ## ⚔️ Tech arsenal
 
 <div align="center">
@@ -78,7 +77,9 @@ I'm a full-stack and Android developer who ships real products, not just tutoria
 
 <div align="center">
 
-![activity graph](https://github-readme-activity-graph.vercel.app/graph?username=emmanuelmwangi88-ui&bg_color=141321&color=00F5FF&line=FF6AC1&point=ffffff&area=true&hide_border=true&area_color=8A2BE2)
+[![streak](https://streak-stats.demolab.com/?user=emmanuelmwangi88-ui&theme=radical&hide_border=true&background=141321&ring=FF6AC1&fire=FF6AC1&currStreakLabel=00F5FF)](https://github.com/emmanuelmwangi88-ui)
+
+[![stats](https://github-readme-stats.vercel.app/api?username=emmanuelmwangi88-ui&show_icons=true&theme=radical&hide_border=true&bg_color=141321&title_color=FF6AC1&icon_color=00F5FF&text_color=ffffff)](https://github.com/emmanuelmwangi88-ui) [![top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=emmanuelmwangi88-ui&layout=compact&theme=radical&hide_border=true&bg_color=141321&title_color=FF6AC1&text_color=ffffff)](https://github.com/emmanuelmwangi88-ui?tab=repositories)
 
 ![snake animation](https://raw.githubusercontent.com/emmanuelmwangi88-ui/emmanuelmwangi88-ui/output/github-contribution-grid-snake-dark.svg)
 
