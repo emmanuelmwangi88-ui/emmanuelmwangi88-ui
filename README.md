@@ -43,12 +43,12 @@ class Denji(Developer):
 
 | | Project | What it is | Built with |
 |---|---|---|---|
-| 🏠 | **[Nestify](https://github.com/emmanuelmwangi88-ui/Nestify)** | Kenyan property rental and short-stay marketplace with an agent portal. Enquiries reach agents directly over WhatsApp or email, and bookings use an M-Pesa Daraja STK flow. *In active development.* | JavaScript · HTML/CSS · Supabase · M-Pesa Daraja |
+| 🏠 | **[Nestify](https://github.com/emmanuelmwangi88-ui/Nestify)** · [Live](https://nestify-drab-zeta.vercel.app) | Rentals and short-stay marketplace covering all 47 Kenyan counties. Renters message agents directly on WhatsApp or email, and agents get their own workspace with subscription plans and M-Pesa (Daraja STK) payments. Includes a mortgage planner. *In active development.* | JavaScript · HTML/CSS · Supabase · M-Pesa Daraja |
 | 🏫 | **[FeeFlow](https://github.com/emmanuelmwangi88-ui/Fee-flow)** · [Live](https://fee-flow-psi.vercel.app) | Multi-tenant school fee platform for Kenyan schools: M-Pesa STK push payments, OTP phone login for parents, per-school encrypted credentials, and payment reconciliation. | Django · M-Pesa Daraja · JavaScript |
 | 👟 | **[StepStack](https://github.com/emmanuelmwangi88-ui/StepStack_app)** | Android step-tracking and fitness app. Hardware step-counter sensors, guided workouts, streaks, and a social layer with friends, challenges and leaderboards, with push notifications. | Kotlin · Jetpack Compose · Firestore · Room · FCM |
 | 🧠 | **[Offline AI Study Assistant](https://github.com/emmanuelmwangi88-ui/Offline-AI-Study-Assistant)** | Fully offline study companion (built around UN SDG 4). Upload your notes, then get grounded Q&A, auto-generated quizzes and spaced-repetition review, all running on local models. | Python · FastAPI · Streamlit · Ollama · RAG |
-| 🦁 | **[WakaBaba Tours & Travel](https://github.com/emmanuelmwangi88-ui/Wakababatours)** · [Live](https://wakababatours.vercel.app) | Wildlife-tourism site for a Kenyan safari company: 16 destinations, a live KSh price calculator, a booking flow and an admin dashboard. | HTML · CSS · JavaScript |
-| 🧾 | **[KRA Redesign](https://github.com/emmanuelmwangi88-ui/KRA-redesign)** · [Live](https://kraredesign.vercel.app) | UI/UX redesign concept for a tax-authority web experience, focused on clarity and ease of use. | TypeScript · Vite |
+| 🦁 | **[WakaBaba Tours & Travel](https://github.com/emmanuelmwangi88-ui/Wakababatours)** · [Live](https://wakababatours.vercel.app) | Wildlife-tourism site for a Kenyan safari company: 8 destinations, tour packages, a live price estimator and a booking flow. | HTML · CSS · JavaScript |
+| 🧾 | **[KRA Redesign](https://github.com/emmanuelmwangi88-ui/KRA-redesign)** · [Live](https://kraredesign.vercel.app) | Unofficial UI/UX redesign concept for the Kenya Revenue Authority website, focused on clarity and ease of use. Not affiliated with KRA. | TypeScript · Vite |
 
 <details>
 <summary><b>🔧 More builds</b></summary>
